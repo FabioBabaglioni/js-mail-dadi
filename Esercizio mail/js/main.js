@@ -21,8 +21,9 @@ for(let i = 0; i<invitati.length; i++){
 }
 
 if(puoiEntrare == true){
-    console.log("Puoi entrare")
+    document.querySelector("h1").innerHTML = `${mail} puoi entrare alla festa`
+    
 }else{
-    console.log("non puoi entrare")
+    document.querySelector("h1").innerHTML = `${mail} NON puoi entrare alla festa`
 }
 
